@@ -1,0 +1,25 @@
+# Virtual Environment
+.venv/
+env/
+venv/
+ENV/
+
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pytest_cache/
+.pytest_cache/
+.coverage
+
+# Data files (avoid committing huge real datasets)
+data/*.zip
+data/creditcard.csv
+data/predictions_output.csv
+
+# Streamlit run cache
+.streamlit/
+
+# OS specific
+.DS_Store
+Thumbs.db
